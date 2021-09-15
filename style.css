@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    scroll-behavior: smooth;
+    background-color: white;
+    overflow: hidden;
+}
+
+/********** Form Start **********/
+.my-form {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.my-form h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+    color: #637381;
+}
+
+.my-form a.form-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4190de;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/********** Form End **********/
+/********** Input with Help Start **********/
+.my-input-with-help {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.my-input-with-help span {
+    position: relative;
+    bottom: 12px;
+    left: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #ff2020;
+}
+
+div.strength {
+    display: flex;
+    margin-left: 20px;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+div.strength p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #637381;
+}
+
+div.strength p span {
+    font-weight: 800;
+    color: #b72136;
+    background: #ffe2e1;
+    border-radius: 9px;
+    padding: 5px 18px;
+    margin-right: 18px;
+}
+
+/********** Input with Help End **********/
+
+/********** Input Start **********/
+
+.my-input {
+    position: relative;
+}
+
+.my-input input {
+    height: 56px;
+    width: 330px;
+    border-radius: 10px;
+    margin-bottom: 0px !important;
+}
+
+.my-input label {
+    position: absolute;
+    top: 0;
+    padding: 15px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+    left: 10px;
+    white-space: nowrap;
+    max-width: 300px;
+    overflow: hidden;
+}
